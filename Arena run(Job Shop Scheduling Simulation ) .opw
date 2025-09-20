@@ -1,0 +1,42 @@
+[RESOURCES]
+Threading Machine
+Grinding Machine
+Finishing Machine
+Drilling Machine
+Turning Machine
+Milling Machine
+Cutiing Machine
+[VARIABLES]
+Plug.NumberOut
+Gear.NumberOut
+Finishing Process.VATime
+Cutting off Process.NumberIn
+Drilling Process.NumberIn
+Drilling Process.NumberOut
+Milling Process.VATime
+Cutting off Process.NumberOut
+Threading Process.WaitTime
+Cutting off Process.VATime
+Threading Process.NumberIn
+Threading Process.NumberOut
+Bolt.NumberOut
+Turning Process.NumberOut
+Milling Process.NumberOut
+Milling Process.WaitTime
+Grinding Process.NumberOut
+Finishing Process.NumberOut
+Exit.NumberOut
+Finishing Process.NumberIn
+Nut.NumberOut
+Grinding Process.NumberIn
+Finishing Process.WaitTime
+Turning Process.VATime
+Grinding Process.VATime
+Drilling Process.VATime
+Threading Process.VATime
+Drilling Process.WaitTime
+Milling Process.NumberIn
+Grinding Process.WaitTime
+Turning Process.WaitTime
+Turning Process.NumberIn
+Cutting off Process.WaitTime

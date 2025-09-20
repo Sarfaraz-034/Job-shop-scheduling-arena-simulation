@@ -1,0 +1,1808 @@
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 1 of 10
+
+Project: Job Shop Scheduling                                         Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 46.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Turning Process.WaitTimePerEntity           5.7500     (Insuf)    .00000     15.000          4    
+Cutting off Process.VATimePerEntity         2.0000     (Insuf)    2.0000     2.0000          4    
+Finishing Process.WaitTimePerEntity         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000          1    
+Threading Process.TotalTimePerEntity        10.333     (Insuf)    7.0000     14.000          3    
+Threading Process.WaitTimePerEntity         1.3333     (Insuf)    .00000     4.0000          3    
+Cutting off Process.TotalTimePerEntity      2.5000     (Insuf)    2.0000     4.0000          4    
+Milling Process.VATimePerEntity             20.000     (Insuf)    20.000     20.000          1    
+Grinding Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          4    
+Turning Process.VATimePerEntity             4.5000     (Insuf)    2.0000     10.000          4    
+Grinding Process.VATimePerEntity            5.0000     (Insuf)    2.0000     6.0000          4    
+Finishing Process.VATimePerEntity           2.2500     (Insuf)    2.0000     3.0000          4    
+Threading Process.VATimePerEntity           9.0000     (Insuf)    7.0000     10.000          3    
+Finishing Process.TotalTimePerEntity        3.0000     (Insuf)    2.0000     4.0000          4    
+Drilling Process.VATimePerEntity            2.0000     (Insuf)    2.0000     2.0000          3    
+Cutting off Process.WaitTimePerEntity       .50000     (Insuf)    .00000     2.0000          4    
+Grinding Process.TotalTimePerEntity         5.0000     (Insuf)    2.0000     6.0000          4    
+Drilling Process.TotalTimePerEntity         2.0000     (Insuf)    2.0000     2.0000          3    
+Milling Process.TotalTimePerEntity          20.000     (Insuf)    20.000     20.000          1    
+Turning Process.TotalTimePerEntity          10.250     (Insuf)    3.0000     18.000          4    
+Drilling Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          3    
+Part 4.VATime                               25.000     (Insuf)    25.000     25.000          1    
+Part 4.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 4.WaitTime                             21.000     (Insuf)    21.000     21.000          1    
+Part 4.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 4.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 4.TotalTime                            46.000     (Insuf)    46.000     46.000          1    
+Part 2.VATime                               21.000     (Insuf)    21.000     21.000          1    
+Part 2.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 2.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 2.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 2.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 2.TotalTime                            24.000     (Insuf)    24.000     24.000          1    
+Part 3.VATime                               39.000     (Insuf)    39.000     39.000          1    
+Part 3.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 3.WaitTime                             5.0000     (Insuf)    5.0000     5.0000          1    
+Part 3.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 3.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 3.TotalTime                            44.000     (Insuf)    44.000     44.000          1    
+Part 1.VATime                               23.000     (Insuf)    23.000     23.000          1    
+Part 1.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 1.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 1.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 1.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 1.TotalTime                            26.000     (Insuf)    26.000     26.000          1    
+Turning Process.Queue.WaitingTime           5.7500     (Insuf)    .00000     15.000          4    
+Threading Process.Queue.WaitingTime         1.3333     (Insuf)    .00000     4.0000          3    
+Grinding Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          4    
+Cutting off Process.Queue.WaitingTime       .50000     (Insuf)    .00000     2.0000          4    
+Finishing Process.Queue.WaitingTime         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Drilling Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part 4.WIP                                  1.0000     (Insuf)    .00000     1.0000     .00000    
+Part 2.WIP                                  .52174     (Insuf)    .00000     1.0000     .00000    
+Part 3.WIP                                  .95652     (Insuf)    .00000     1.0000     .00000    
+Part 1.WIP                                  .56522     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberBusy                .58696     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Threading Machine.Utilization               .58696     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberBusy                 .43478     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Grinding Machine.Utilization                .43478     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberBusy                .19565     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Finishing Machine.Utilization               .19565     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberBusy                 .13043     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling Machine.Utilization                .13043     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberBusy                  .39130     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Turning Machine.Utilization                 .39130     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberBusy                  .43478     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Milling Machine.Utilization                 .43478     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberBusy                  .17391     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cutiing Machine.Utilization                 .17391     (Insuf)    .00000     1.0000     .00000    
+Turning Process.Queue.NumberInQueue         .50000     (Insuf)    .00000     3.0000     .00000    
+Threading Process.Queue.NumberInQueue       .08696     (Insuf)    .00000     1.0000     .00000    
+Grinding Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     1.0000     .00000    
+Cutting off Process.Queue.NumberInQueue     .04348     (Insuf)    .00000     1.0000     .00000    
+Finishing Process.Queue.NumberInQueue       .06522     (Insuf)    .00000     1.0000     .00000    
+Milling Process.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Drilling Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Station Th.NumEntTrans                      .00000     (Insuf)    .00000     1.0000     .00000    
+Station G.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station F.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station E.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station D.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station C.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station M.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station T.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Finishing Process Accum VA Time             9.0000    
+Cutting off Process Number In               4.0000    
+Drilling Process Number In                  3.0000    
+Drilling Process Number Out                 3.0000    
+Milling Process Accum VA Time               20.000    
+Cutting off Process Number Out              4.0000    
+Threading Process Accum Wait Time           4.0000    
+Cutting off Process Accum VA Time           8.0000    
+Threading Process Number In                 3.0000    
+Threading Process Number Out                3.0000    
+Turning Process Number Out                  4.0000    
+Milling Process Number Out                  1.0000    
+Milling Process Accum Wait Time             .00000    
+Grinding Process Number Out                 4.0000    
+Finishing Process Number Out                4.0000    
+Finishing Process Number In                 4.0000    
+Grinding Process Number In                  4.0000    
+Finishing Process Accum Wait Time           3.0000    
+Turning Process Accum VA Time               18.000    
+Grinding Process Accum VA Time              20.000    
+Drilling Process Accum VA Time              6.0000    
+Threading Process Accum VA Time             27.000    
+Drilling Process Accum Wait Time            .00000    
+Milling Process Number In                   1.0000    
+Grinding Process Accum Wait Time            .00000    
+Turning Process Accum Wait Time             23.000    
+Turning Process Number In                   4.0000    
+Cutting off Process Accum Wait Time         2.0000    
+Part 4.NumberIn                             1.0000    
+Part 4.NumberOut                            1.0000    
+Part 2.NumberIn                             1.0000    
+Part 2.NumberOut                            1.0000    
+Part 3.NumberIn                             1.0000    
+Part 3.NumberOut                            1.0000    
+Part 1.NumberIn                             1.0000    
+Part 1.NumberOut                            1.0000    
+Threading Machine.NumberSeized              3.0000    
+Threading Machine.ScheduledUtilization      .58696    
+Grinding Machine.NumberSeized               4.0000    
+Grinding Machine.ScheduledUtilization       .43478    
+Finishing Machine.NumberSeized              4.0000    
+Finishing Machine.ScheduledUtilization      .19565    
+Drilling Machine.NumberSeized               3.0000    
+Drilling Machine.ScheduledUtilization       .13043    
+Turning Machine.NumberSeized                4.0000    
+Turning Machine.ScheduledUtilization        .39130    
+Milling Machine.NumberSeized                1.0000    
+Milling Machine.ScheduledUtilization        .43478    
+Cutiing Machine.NumberSeized                4.0000    
+Cutiing Machine.ScheduledUtilization        .17391    
+System.NumberOut                            4.0000    
+
+Beginning replication 2 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 2 of 10
+
+Project: Job Shop Scheduling                                         Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 46.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Turning Process.WaitTimePerEntity           5.7500     (Insuf)    .00000     15.000          4    
+Cutting off Process.VATimePerEntity         2.0000     (Insuf)    2.0000     2.0000          4    
+Finishing Process.WaitTimePerEntity         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000          1    
+Threading Process.TotalTimePerEntity        10.333     (Insuf)    7.0000     14.000          3    
+Threading Process.WaitTimePerEntity         1.3333     (Insuf)    .00000     4.0000          3    
+Cutting off Process.TotalTimePerEntity      2.5000     (Insuf)    2.0000     4.0000          4    
+Milling Process.VATimePerEntity             20.000     (Insuf)    20.000     20.000          1    
+Grinding Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          4    
+Turning Process.VATimePerEntity             4.5000     (Insuf)    2.0000     10.000          4    
+Grinding Process.VATimePerEntity            5.0000     (Insuf)    2.0000     6.0000          4    
+Finishing Process.VATimePerEntity           2.2500     (Insuf)    2.0000     3.0000          4    
+Threading Process.VATimePerEntity           9.0000     (Insuf)    7.0000     10.000          3    
+Finishing Process.TotalTimePerEntity        3.0000     (Insuf)    2.0000     4.0000          4    
+Drilling Process.VATimePerEntity            2.0000     (Insuf)    2.0000     2.0000          3    
+Cutting off Process.WaitTimePerEntity       .50000     (Insuf)    .00000     2.0000          4    
+Grinding Process.TotalTimePerEntity         5.0000     (Insuf)    2.0000     6.0000          4    
+Drilling Process.TotalTimePerEntity         2.0000     (Insuf)    2.0000     2.0000          3    
+Milling Process.TotalTimePerEntity          20.000     (Insuf)    20.000     20.000          1    
+Turning Process.TotalTimePerEntity          10.250     (Insuf)    3.0000     18.000          4    
+Drilling Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          3    
+Part 4.VATime                               25.000     (Insuf)    25.000     25.000          1    
+Part 4.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 4.WaitTime                             21.000     (Insuf)    21.000     21.000          1    
+Part 4.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 4.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 4.TotalTime                            46.000     (Insuf)    46.000     46.000          1    
+Part 2.VATime                               21.000     (Insuf)    21.000     21.000          1    
+Part 2.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 2.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 2.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 2.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 2.TotalTime                            24.000     (Insuf)    24.000     24.000          1    
+Part 3.VATime                               39.000     (Insuf)    39.000     39.000          1    
+Part 3.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 3.WaitTime                             5.0000     (Insuf)    5.0000     5.0000          1    
+Part 3.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 3.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 3.TotalTime                            44.000     (Insuf)    44.000     44.000          1    
+Part 1.VATime                               23.000     (Insuf)    23.000     23.000          1    
+Part 1.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 1.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 1.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 1.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 1.TotalTime                            26.000     (Insuf)    26.000     26.000          1    
+Turning Process.Queue.WaitingTime           5.7500     (Insuf)    .00000     15.000          4    
+Threading Process.Queue.WaitingTime         1.3333     (Insuf)    .00000     4.0000          3    
+Grinding Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          4    
+Cutting off Process.Queue.WaitingTime       .50000     (Insuf)    .00000     2.0000          4    
+Finishing Process.Queue.WaitingTime         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Drilling Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part 4.WIP                                  1.0000     (Insuf)    .00000     1.0000     .00000    
+Part 2.WIP                                  .52174     (Insuf)    .00000     1.0000     .00000    
+Part 3.WIP                                  .95652     (Insuf)    .00000     1.0000     .00000    
+Part 1.WIP                                  .56522     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberBusy                .58696     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Threading Machine.Utilization               .58696     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberBusy                 .43478     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Grinding Machine.Utilization                .43478     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberBusy                .19565     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Finishing Machine.Utilization               .19565     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberBusy                 .13043     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling Machine.Utilization                .13043     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberBusy                  .39130     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Turning Machine.Utilization                 .39130     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberBusy                  .43478     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Milling Machine.Utilization                 .43478     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberBusy                  .17391     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cutiing Machine.Utilization                 .17391     (Insuf)    .00000     1.0000     .00000    
+Turning Process.Queue.NumberInQueue         .50000     (Insuf)    .00000     3.0000     .00000    
+Threading Process.Queue.NumberInQueue       .08696     (Insuf)    .00000     1.0000     .00000    
+Grinding Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     1.0000     .00000    
+Cutting off Process.Queue.NumberInQueue     .04348     (Insuf)    .00000     1.0000     .00000    
+Finishing Process.Queue.NumberInQueue       .06522     (Insuf)    .00000     1.0000     .00000    
+Milling Process.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Drilling Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Station Th.NumEntTrans                      .00000     (Insuf)    .00000     1.0000     .00000    
+Station G.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station F.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station E.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station D.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station C.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station M.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station T.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Finishing Process Accum VA Time             9.0000    
+Cutting off Process Number In               4.0000    
+Drilling Process Number In                  3.0000    
+Drilling Process Number Out                 3.0000    
+Milling Process Accum VA Time               20.000    
+Cutting off Process Number Out              4.0000    
+Threading Process Accum Wait Time           4.0000    
+Cutting off Process Accum VA Time           8.0000    
+Threading Process Number In                 3.0000    
+Threading Process Number Out                3.0000    
+Turning Process Number Out                  4.0000    
+Milling Process Number Out                  1.0000    
+Milling Process Accum Wait Time             .00000    
+Grinding Process Number Out                 4.0000    
+Finishing Process Number Out                4.0000    
+Finishing Process Number In                 4.0000    
+Grinding Process Number In                  4.0000    
+Finishing Process Accum Wait Time           3.0000    
+Turning Process Accum VA Time               18.000    
+Grinding Process Accum VA Time              20.000    
+Drilling Process Accum VA Time              6.0000    
+Threading Process Accum VA Time             27.000    
+Drilling Process Accum Wait Time            .00000    
+Milling Process Number In                   1.0000    
+Grinding Process Accum Wait Time            .00000    
+Turning Process Accum Wait Time             23.000    
+Turning Process Number In                   4.0000    
+Cutting off Process Accum Wait Time         2.0000    
+Part 4.NumberIn                             1.0000    
+Part 4.NumberOut                            1.0000    
+Part 2.NumberIn                             1.0000    
+Part 2.NumberOut                            1.0000    
+Part 3.NumberIn                             1.0000    
+Part 3.NumberOut                            1.0000    
+Part 1.NumberIn                             1.0000    
+Part 1.NumberOut                            1.0000    
+Threading Machine.NumberSeized              3.0000    
+Threading Machine.ScheduledUtilization      .58696    
+Grinding Machine.NumberSeized               4.0000    
+Grinding Machine.ScheduledUtilization       .43478    
+Finishing Machine.NumberSeized              4.0000    
+Finishing Machine.ScheduledUtilization      .19565    
+Drilling Machine.NumberSeized               3.0000    
+Drilling Machine.ScheduledUtilization       .13043    
+Turning Machine.NumberSeized                4.0000    
+Turning Machine.ScheduledUtilization        .39130    
+Milling Machine.NumberSeized                1.0000    
+Milling Machine.ScheduledUtilization        .43478    
+Cutiing Machine.NumberSeized                4.0000    
+Cutiing Machine.ScheduledUtilization        .17391    
+System.NumberOut                            4.0000    
+
+Beginning replication 3 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 3 of 10
+
+Project: Job Shop Scheduling                                         Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 46.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Turning Process.WaitTimePerEntity           5.7500     (Insuf)    .00000     15.000          4    
+Cutting off Process.VATimePerEntity         2.0000     (Insuf)    2.0000     2.0000          4    
+Finishing Process.WaitTimePerEntity         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000          1    
+Threading Process.TotalTimePerEntity        10.333     (Insuf)    7.0000     14.000          3    
+Threading Process.WaitTimePerEntity         1.3333     (Insuf)    .00000     4.0000          3    
+Cutting off Process.TotalTimePerEntity      2.5000     (Insuf)    2.0000     4.0000          4    
+Milling Process.VATimePerEntity             20.000     (Insuf)    20.000     20.000          1    
+Grinding Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          4    
+Turning Process.VATimePerEntity             4.5000     (Insuf)    2.0000     10.000          4    
+Grinding Process.VATimePerEntity            5.0000     (Insuf)    2.0000     6.0000          4    
+Finishing Process.VATimePerEntity           2.2500     (Insuf)    2.0000     3.0000          4    
+Threading Process.VATimePerEntity           9.0000     (Insuf)    7.0000     10.000          3    
+Finishing Process.TotalTimePerEntity        3.0000     (Insuf)    2.0000     4.0000          4    
+Drilling Process.VATimePerEntity            2.0000     (Insuf)    2.0000     2.0000          3    
+Cutting off Process.WaitTimePerEntity       .50000     (Insuf)    .00000     2.0000          4    
+Grinding Process.TotalTimePerEntity         5.0000     (Insuf)    2.0000     6.0000          4    
+Drilling Process.TotalTimePerEntity         2.0000     (Insuf)    2.0000     2.0000          3    
+Milling Process.TotalTimePerEntity          20.000     (Insuf)    20.000     20.000          1    
+Turning Process.TotalTimePerEntity          10.250     (Insuf)    3.0000     18.000          4    
+Drilling Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          3    
+Part 4.VATime                               25.000     (Insuf)    25.000     25.000          1    
+Part 4.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 4.WaitTime                             21.000     (Insuf)    21.000     21.000          1    
+Part 4.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 4.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 4.TotalTime                            46.000     (Insuf)    46.000     46.000          1    
+Part 2.VATime                               21.000     (Insuf)    21.000     21.000          1    
+Part 2.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 2.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 2.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 2.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 2.TotalTime                            24.000     (Insuf)    24.000     24.000          1    
+Part 3.VATime                               39.000     (Insuf)    39.000     39.000          1    
+Part 3.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 3.WaitTime                             5.0000     (Insuf)    5.0000     5.0000          1    
+Part 3.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 3.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 3.TotalTime                            44.000     (Insuf)    44.000     44.000          1    
+Part 1.VATime                               23.000     (Insuf)    23.000     23.000          1    
+Part 1.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 1.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 1.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 1.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 1.TotalTime                            26.000     (Insuf)    26.000     26.000          1    
+Turning Process.Queue.WaitingTime           5.7500     (Insuf)    .00000     15.000          4    
+Threading Process.Queue.WaitingTime         1.3333     (Insuf)    .00000     4.0000          3    
+Grinding Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          4    
+Cutting off Process.Queue.WaitingTime       .50000     (Insuf)    .00000     2.0000          4    
+Finishing Process.Queue.WaitingTime         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Drilling Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part 4.WIP                                  1.0000     (Insuf)    .00000     1.0000     .00000    
+Part 2.WIP                                  .52174     (Insuf)    .00000     1.0000     .00000    
+Part 3.WIP                                  .95652     (Insuf)    .00000     1.0000     .00000    
+Part 1.WIP                                  .56522     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberBusy                .58696     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Threading Machine.Utilization               .58696     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberBusy                 .43478     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Grinding Machine.Utilization                .43478     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberBusy                .19565     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Finishing Machine.Utilization               .19565     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberBusy                 .13043     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling Machine.Utilization                .13043     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberBusy                  .39130     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Turning Machine.Utilization                 .39130     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberBusy                  .43478     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Milling Machine.Utilization                 .43478     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberBusy                  .17391     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cutiing Machine.Utilization                 .17391     (Insuf)    .00000     1.0000     .00000    
+Turning Process.Queue.NumberInQueue         .50000     (Insuf)    .00000     3.0000     .00000    
+Threading Process.Queue.NumberInQueue       .08696     (Insuf)    .00000     1.0000     .00000    
+Grinding Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     1.0000     .00000    
+Cutting off Process.Queue.NumberInQueue     .04348     (Insuf)    .00000     1.0000     .00000    
+Finishing Process.Queue.NumberInQueue       .06522     (Insuf)    .00000     1.0000     .00000    
+Milling Process.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Drilling Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Station Th.NumEntTrans                      .00000     (Insuf)    .00000     1.0000     .00000    
+Station G.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station F.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station E.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station D.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station C.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station M.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station T.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Finishing Process Accum VA Time             9.0000    
+Cutting off Process Number In               4.0000    
+Drilling Process Number In                  3.0000    
+Drilling Process Number Out                 3.0000    
+Milling Process Accum VA Time               20.000    
+Cutting off Process Number Out              4.0000    
+Threading Process Accum Wait Time           4.0000    
+Cutting off Process Accum VA Time           8.0000    
+Threading Process Number In                 3.0000    
+Threading Process Number Out                3.0000    
+Turning Process Number Out                  4.0000    
+Milling Process Number Out                  1.0000    
+Milling Process Accum Wait Time             .00000    
+Grinding Process Number Out                 4.0000    
+Finishing Process Number Out                4.0000    
+Finishing Process Number In                 4.0000    
+Grinding Process Number In                  4.0000    
+Finishing Process Accum Wait Time           3.0000    
+Turning Process Accum VA Time               18.000    
+Grinding Process Accum VA Time              20.000    
+Drilling Process Accum VA Time              6.0000    
+Threading Process Accum VA Time             27.000    
+Drilling Process Accum Wait Time            .00000    
+Milling Process Number In                   1.0000    
+Grinding Process Accum Wait Time            .00000    
+Turning Process Accum Wait Time             23.000    
+Turning Process Number In                   4.0000    
+Cutting off Process Accum Wait Time         2.0000    
+Part 4.NumberIn                             1.0000    
+Part 4.NumberOut                            1.0000    
+Part 2.NumberIn                             1.0000    
+Part 2.NumberOut                            1.0000    
+Part 3.NumberIn                             1.0000    
+Part 3.NumberOut                            1.0000    
+Part 1.NumberIn                             1.0000    
+Part 1.NumberOut                            1.0000    
+Threading Machine.NumberSeized              3.0000    
+Threading Machine.ScheduledUtilization      .58696    
+Grinding Machine.NumberSeized               4.0000    
+Grinding Machine.ScheduledUtilization       .43478    
+Finishing Machine.NumberSeized              4.0000    
+Finishing Machine.ScheduledUtilization      .19565    
+Drilling Machine.NumberSeized               3.0000    
+Drilling Machine.ScheduledUtilization       .13043    
+Turning Machine.NumberSeized                4.0000    
+Turning Machine.ScheduledUtilization        .39130    
+Milling Machine.NumberSeized                1.0000    
+Milling Machine.ScheduledUtilization        .43478    
+Cutiing Machine.NumberSeized                4.0000    
+Cutiing Machine.ScheduledUtilization        .17391    
+System.NumberOut                            4.0000    
+
+Beginning replication 4 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 4 of 10
+
+Project: Job Shop Scheduling                                         Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 46.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Turning Process.WaitTimePerEntity           5.7500     (Insuf)    .00000     15.000          4    
+Cutting off Process.VATimePerEntity         2.0000     (Insuf)    2.0000     2.0000          4    
+Finishing Process.WaitTimePerEntity         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000          1    
+Threading Process.TotalTimePerEntity        10.333     (Insuf)    7.0000     14.000          3    
+Threading Process.WaitTimePerEntity         1.3333     (Insuf)    .00000     4.0000          3    
+Cutting off Process.TotalTimePerEntity      2.5000     (Insuf)    2.0000     4.0000          4    
+Milling Process.VATimePerEntity             20.000     (Insuf)    20.000     20.000          1    
+Grinding Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          4    
+Turning Process.VATimePerEntity             4.5000     (Insuf)    2.0000     10.000          4    
+Grinding Process.VATimePerEntity            5.0000     (Insuf)    2.0000     6.0000          4    
+Finishing Process.VATimePerEntity           2.2500     (Insuf)    2.0000     3.0000          4    
+Threading Process.VATimePerEntity           9.0000     (Insuf)    7.0000     10.000          3    
+Finishing Process.TotalTimePerEntity        3.0000     (Insuf)    2.0000     4.0000          4    
+Drilling Process.VATimePerEntity            2.0000     (Insuf)    2.0000     2.0000          3    
+Cutting off Process.WaitTimePerEntity       .50000     (Insuf)    .00000     2.0000          4    
+Grinding Process.TotalTimePerEntity         5.0000     (Insuf)    2.0000     6.0000          4    
+Drilling Process.TotalTimePerEntity         2.0000     (Insuf)    2.0000     2.0000          3    
+Milling Process.TotalTimePerEntity          20.000     (Insuf)    20.000     20.000          1    
+Turning Process.TotalTimePerEntity          10.250     (Insuf)    3.0000     18.000          4    
+Drilling Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          3    
+Part 4.VATime                               25.000     (Insuf)    25.000     25.000          1    
+Part 4.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 4.WaitTime                             21.000     (Insuf)    21.000     21.000          1    
+Part 4.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 4.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 4.TotalTime                            46.000     (Insuf)    46.000     46.000          1    
+Part 2.VATime                               21.000     (Insuf)    21.000     21.000          1    
+Part 2.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 2.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 2.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 2.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 2.TotalTime                            24.000     (Insuf)    24.000     24.000          1    
+Part 3.VATime                               39.000     (Insuf)    39.000     39.000          1    
+Part 3.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 3.WaitTime                             5.0000     (Insuf)    5.0000     5.0000          1    
+Part 3.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 3.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 3.TotalTime                            44.000     (Insuf)    44.000     44.000          1    
+Part 1.VATime                               23.000     (Insuf)    23.000     23.000          1    
+Part 1.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 1.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 1.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 1.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 1.TotalTime                            26.000     (Insuf)    26.000     26.000          1    
+Turning Process.Queue.WaitingTime           5.7500     (Insuf)    .00000     15.000          4    
+Threading Process.Queue.WaitingTime         1.3333     (Insuf)    .00000     4.0000          3    
+Grinding Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          4    
+Cutting off Process.Queue.WaitingTime       .50000     (Insuf)    .00000     2.0000          4    
+Finishing Process.Queue.WaitingTime         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Drilling Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part 4.WIP                                  1.0000     (Insuf)    .00000     1.0000     .00000    
+Part 2.WIP                                  .52174     (Insuf)    .00000     1.0000     .00000    
+Part 3.WIP                                  .95652     (Insuf)    .00000     1.0000     .00000    
+Part 1.WIP                                  .56522     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberBusy                .58696     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Threading Machine.Utilization               .58696     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberBusy                 .43478     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Grinding Machine.Utilization                .43478     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberBusy                .19565     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Finishing Machine.Utilization               .19565     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberBusy                 .13043     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling Machine.Utilization                .13043     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberBusy                  .39130     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Turning Machine.Utilization                 .39130     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberBusy                  .43478     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Milling Machine.Utilization                 .43478     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberBusy                  .17391     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cutiing Machine.Utilization                 .17391     (Insuf)    .00000     1.0000     .00000    
+Turning Process.Queue.NumberInQueue         .50000     (Insuf)    .00000     3.0000     .00000    
+Threading Process.Queue.NumberInQueue       .08696     (Insuf)    .00000     1.0000     .00000    
+Grinding Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     1.0000     .00000    
+Cutting off Process.Queue.NumberInQueue     .04348     (Insuf)    .00000     1.0000     .00000    
+Finishing Process.Queue.NumberInQueue       .06522     (Insuf)    .00000     1.0000     .00000    
+Milling Process.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Drilling Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Station Th.NumEntTrans                      .00000     (Insuf)    .00000     1.0000     .00000    
+Station G.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station F.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station E.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station D.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station C.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station M.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station T.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Finishing Process Accum VA Time             9.0000    
+Cutting off Process Number In               4.0000    
+Drilling Process Number In                  3.0000    
+Drilling Process Number Out                 3.0000    
+Milling Process Accum VA Time               20.000    
+Cutting off Process Number Out              4.0000    
+Threading Process Accum Wait Time           4.0000    
+Cutting off Process Accum VA Time           8.0000    
+Threading Process Number In                 3.0000    
+Threading Process Number Out                3.0000    
+Turning Process Number Out                  4.0000    
+Milling Process Number Out                  1.0000    
+Milling Process Accum Wait Time             .00000    
+Grinding Process Number Out                 4.0000    
+Finishing Process Number Out                4.0000    
+Finishing Process Number In                 4.0000    
+Grinding Process Number In                  4.0000    
+Finishing Process Accum Wait Time           3.0000    
+Turning Process Accum VA Time               18.000    
+Grinding Process Accum VA Time              20.000    
+Drilling Process Accum VA Time              6.0000    
+Threading Process Accum VA Time             27.000    
+Drilling Process Accum Wait Time            .00000    
+Milling Process Number In                   1.0000    
+Grinding Process Accum Wait Time            .00000    
+Turning Process Accum Wait Time             23.000    
+Turning Process Number In                   4.0000    
+Cutting off Process Accum Wait Time         2.0000    
+Part 4.NumberIn                             1.0000    
+Part 4.NumberOut                            1.0000    
+Part 2.NumberIn                             1.0000    
+Part 2.NumberOut                            1.0000    
+Part 3.NumberIn                             1.0000    
+Part 3.NumberOut                            1.0000    
+Part 1.NumberIn                             1.0000    
+Part 1.NumberOut                            1.0000    
+Threading Machine.NumberSeized              3.0000    
+Threading Machine.ScheduledUtilization      .58696    
+Grinding Machine.NumberSeized               4.0000    
+Grinding Machine.ScheduledUtilization       .43478    
+Finishing Machine.NumberSeized              4.0000    
+Finishing Machine.ScheduledUtilization      .19565    
+Drilling Machine.NumberSeized               3.0000    
+Drilling Machine.ScheduledUtilization       .13043    
+Turning Machine.NumberSeized                4.0000    
+Turning Machine.ScheduledUtilization        .39130    
+Milling Machine.NumberSeized                1.0000    
+Milling Machine.ScheduledUtilization        .43478    
+Cutiing Machine.NumberSeized                4.0000    
+Cutiing Machine.ScheduledUtilization        .17391    
+System.NumberOut                            4.0000    
+
+Beginning replication 5 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 5 of 10
+
+Project: Job Shop Scheduling                                         Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 46.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Turning Process.WaitTimePerEntity           5.7500     (Insuf)    .00000     15.000          4    
+Cutting off Process.VATimePerEntity         2.0000     (Insuf)    2.0000     2.0000          4    
+Finishing Process.WaitTimePerEntity         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000          1    
+Threading Process.TotalTimePerEntity        10.333     (Insuf)    7.0000     14.000          3    
+Threading Process.WaitTimePerEntity         1.3333     (Insuf)    .00000     4.0000          3    
+Cutting off Process.TotalTimePerEntity      2.5000     (Insuf)    2.0000     4.0000          4    
+Milling Process.VATimePerEntity             20.000     (Insuf)    20.000     20.000          1    
+Grinding Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          4    
+Turning Process.VATimePerEntity             4.5000     (Insuf)    2.0000     10.000          4    
+Grinding Process.VATimePerEntity            5.0000     (Insuf)    2.0000     6.0000          4    
+Finishing Process.VATimePerEntity           2.2500     (Insuf)    2.0000     3.0000          4    
+Threading Process.VATimePerEntity           9.0000     (Insuf)    7.0000     10.000          3    
+Finishing Process.TotalTimePerEntity        3.0000     (Insuf)    2.0000     4.0000          4    
+Drilling Process.VATimePerEntity            2.0000     (Insuf)    2.0000     2.0000          3    
+Cutting off Process.WaitTimePerEntity       .50000     (Insuf)    .00000     2.0000          4    
+Grinding Process.TotalTimePerEntity         5.0000     (Insuf)    2.0000     6.0000          4    
+Drilling Process.TotalTimePerEntity         2.0000     (Insuf)    2.0000     2.0000          3    
+Milling Process.TotalTimePerEntity          20.000     (Insuf)    20.000     20.000          1    
+Turning Process.TotalTimePerEntity          10.250     (Insuf)    3.0000     18.000          4    
+Drilling Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          3    
+Part 4.VATime                               25.000     (Insuf)    25.000     25.000          1    
+Part 4.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 4.WaitTime                             21.000     (Insuf)    21.000     21.000          1    
+Part 4.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 4.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 4.TotalTime                            46.000     (Insuf)    46.000     46.000          1    
+Part 2.VATime                               21.000     (Insuf)    21.000     21.000          1    
+Part 2.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 2.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 2.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 2.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 2.TotalTime                            24.000     (Insuf)    24.000     24.000          1    
+Part 3.VATime                               39.000     (Insuf)    39.000     39.000          1    
+Part 3.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 3.WaitTime                             5.0000     (Insuf)    5.0000     5.0000          1    
+Part 3.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 3.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 3.TotalTime                            44.000     (Insuf)    44.000     44.000          1    
+Part 1.VATime                               23.000     (Insuf)    23.000     23.000          1    
+Part 1.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 1.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 1.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 1.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 1.TotalTime                            26.000     (Insuf)    26.000     26.000          1    
+Turning Process.Queue.WaitingTime           5.7500     (Insuf)    .00000     15.000          4    
+Threading Process.Queue.WaitingTime         1.3333     (Insuf)    .00000     4.0000          3    
+Grinding Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          4    
+Cutting off Process.Queue.WaitingTime       .50000     (Insuf)    .00000     2.0000          4    
+Finishing Process.Queue.WaitingTime         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Drilling Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part 4.WIP                                  1.0000     (Insuf)    .00000     1.0000     .00000    
+Part 2.WIP                                  .52174     (Insuf)    .00000     1.0000     .00000    
+Part 3.WIP                                  .95652     (Insuf)    .00000     1.0000     .00000    
+Part 1.WIP                                  .56522     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberBusy                .58696     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Threading Machine.Utilization               .58696     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberBusy                 .43478     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Grinding Machine.Utilization                .43478     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberBusy                .19565     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Finishing Machine.Utilization               .19565     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberBusy                 .13043     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling Machine.Utilization                .13043     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberBusy                  .39130     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Turning Machine.Utilization                 .39130     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberBusy                  .43478     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Milling Machine.Utilization                 .43478     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberBusy                  .17391     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cutiing Machine.Utilization                 .17391     (Insuf)    .00000     1.0000     .00000    
+Turning Process.Queue.NumberInQueue         .50000     (Insuf)    .00000     3.0000     .00000    
+Threading Process.Queue.NumberInQueue       .08696     (Insuf)    .00000     1.0000     .00000    
+Grinding Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     1.0000     .00000    
+Cutting off Process.Queue.NumberInQueue     .04348     (Insuf)    .00000     1.0000     .00000    
+Finishing Process.Queue.NumberInQueue       .06522     (Insuf)    .00000     1.0000     .00000    
+Milling Process.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Drilling Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Station Th.NumEntTrans                      .00000     (Insuf)    .00000     1.0000     .00000    
+Station G.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station F.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station E.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station D.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station C.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station M.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station T.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Finishing Process Accum VA Time             9.0000    
+Cutting off Process Number In               4.0000    
+Drilling Process Number In                  3.0000    
+Drilling Process Number Out                 3.0000    
+Milling Process Accum VA Time               20.000    
+Cutting off Process Number Out              4.0000    
+Threading Process Accum Wait Time           4.0000    
+Cutting off Process Accum VA Time           8.0000    
+Threading Process Number In                 3.0000    
+Threading Process Number Out                3.0000    
+Turning Process Number Out                  4.0000    
+Milling Process Number Out                  1.0000    
+Milling Process Accum Wait Time             .00000    
+Grinding Process Number Out                 4.0000    
+Finishing Process Number Out                4.0000    
+Finishing Process Number In                 4.0000    
+Grinding Process Number In                  4.0000    
+Finishing Process Accum Wait Time           3.0000    
+Turning Process Accum VA Time               18.000    
+Grinding Process Accum VA Time              20.000    
+Drilling Process Accum VA Time              6.0000    
+Threading Process Accum VA Time             27.000    
+Drilling Process Accum Wait Time            .00000    
+Milling Process Number In                   1.0000    
+Grinding Process Accum Wait Time            .00000    
+Turning Process Accum Wait Time             23.000    
+Turning Process Number In                   4.0000    
+Cutting off Process Accum Wait Time         2.0000    
+Part 4.NumberIn                             1.0000    
+Part 4.NumberOut                            1.0000    
+Part 2.NumberIn                             1.0000    
+Part 2.NumberOut                            1.0000    
+Part 3.NumberIn                             1.0000    
+Part 3.NumberOut                            1.0000    
+Part 1.NumberIn                             1.0000    
+Part 1.NumberOut                            1.0000    
+Threading Machine.NumberSeized              3.0000    
+Threading Machine.ScheduledUtilization      .58696    
+Grinding Machine.NumberSeized               4.0000    
+Grinding Machine.ScheduledUtilization       .43478    
+Finishing Machine.NumberSeized              4.0000    
+Finishing Machine.ScheduledUtilization      .19565    
+Drilling Machine.NumberSeized               3.0000    
+Drilling Machine.ScheduledUtilization       .13043    
+Turning Machine.NumberSeized                4.0000    
+Turning Machine.ScheduledUtilization        .39130    
+Milling Machine.NumberSeized                1.0000    
+Milling Machine.ScheduledUtilization        .43478    
+Cutiing Machine.NumberSeized                4.0000    
+Cutiing Machine.ScheduledUtilization        .17391    
+System.NumberOut                            4.0000    
+
+Beginning replication 6 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 6 of 10
+
+Project: Job Shop Scheduling                                         Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 46.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Turning Process.WaitTimePerEntity           5.7500     (Insuf)    .00000     15.000          4    
+Cutting off Process.VATimePerEntity         2.0000     (Insuf)    2.0000     2.0000          4    
+Finishing Process.WaitTimePerEntity         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000          1    
+Threading Process.TotalTimePerEntity        10.333     (Insuf)    7.0000     14.000          3    
+Threading Process.WaitTimePerEntity         1.3333     (Insuf)    .00000     4.0000          3    
+Cutting off Process.TotalTimePerEntity      2.5000     (Insuf)    2.0000     4.0000          4    
+Milling Process.VATimePerEntity             20.000     (Insuf)    20.000     20.000          1    
+Grinding Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          4    
+Turning Process.VATimePerEntity             4.5000     (Insuf)    2.0000     10.000          4    
+Grinding Process.VATimePerEntity            5.0000     (Insuf)    2.0000     6.0000          4    
+Finishing Process.VATimePerEntity           2.2500     (Insuf)    2.0000     3.0000          4    
+Threading Process.VATimePerEntity           9.0000     (Insuf)    7.0000     10.000          3    
+Finishing Process.TotalTimePerEntity        3.0000     (Insuf)    2.0000     4.0000          4    
+Drilling Process.VATimePerEntity            2.0000     (Insuf)    2.0000     2.0000          3    
+Cutting off Process.WaitTimePerEntity       .50000     (Insuf)    .00000     2.0000          4    
+Grinding Process.TotalTimePerEntity         5.0000     (Insuf)    2.0000     6.0000          4    
+Drilling Process.TotalTimePerEntity         2.0000     (Insuf)    2.0000     2.0000          3    
+Milling Process.TotalTimePerEntity          20.000     (Insuf)    20.000     20.000          1    
+Turning Process.TotalTimePerEntity          10.250     (Insuf)    3.0000     18.000          4    
+Drilling Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          3    
+Part 4.VATime                               25.000     (Insuf)    25.000     25.000          1    
+Part 4.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 4.WaitTime                             21.000     (Insuf)    21.000     21.000          1    
+Part 4.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 4.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 4.TotalTime                            46.000     (Insuf)    46.000     46.000          1    
+Part 2.VATime                               21.000     (Insuf)    21.000     21.000          1    
+Part 2.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 2.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 2.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 2.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 2.TotalTime                            24.000     (Insuf)    24.000     24.000          1    
+Part 3.VATime                               39.000     (Insuf)    39.000     39.000          1    
+Part 3.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 3.WaitTime                             5.0000     (Insuf)    5.0000     5.0000          1    
+Part 3.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 3.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 3.TotalTime                            44.000     (Insuf)    44.000     44.000          1    
+Part 1.VATime                               23.000     (Insuf)    23.000     23.000          1    
+Part 1.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 1.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 1.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 1.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 1.TotalTime                            26.000     (Insuf)    26.000     26.000          1    
+Turning Process.Queue.WaitingTime           5.7500     (Insuf)    .00000     15.000          4    
+Threading Process.Queue.WaitingTime         1.3333     (Insuf)    .00000     4.0000          3    
+Grinding Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          4    
+Cutting off Process.Queue.WaitingTime       .50000     (Insuf)    .00000     2.0000          4    
+Finishing Process.Queue.WaitingTime         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Drilling Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part 4.WIP                                  1.0000     (Insuf)    .00000     1.0000     .00000    
+Part 2.WIP                                  .52174     (Insuf)    .00000     1.0000     .00000    
+Part 3.WIP                                  .95652     (Insuf)    .00000     1.0000     .00000    
+Part 1.WIP                                  .56522     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberBusy                .58696     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Threading Machine.Utilization               .58696     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberBusy                 .43478     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Grinding Machine.Utilization                .43478     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberBusy                .19565     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Finishing Machine.Utilization               .19565     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberBusy                 .13043     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling Machine.Utilization                .13043     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberBusy                  .39130     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Turning Machine.Utilization                 .39130     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberBusy                  .43478     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Milling Machine.Utilization                 .43478     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberBusy                  .17391     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cutiing Machine.Utilization                 .17391     (Insuf)    .00000     1.0000     .00000    
+Turning Process.Queue.NumberInQueue         .50000     (Insuf)    .00000     3.0000     .00000    
+Threading Process.Queue.NumberInQueue       .08696     (Insuf)    .00000     1.0000     .00000    
+Grinding Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     1.0000     .00000    
+Cutting off Process.Queue.NumberInQueue     .04348     (Insuf)    .00000     1.0000     .00000    
+Finishing Process.Queue.NumberInQueue       .06522     (Insuf)    .00000     1.0000     .00000    
+Milling Process.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Drilling Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Station Th.NumEntTrans                      .00000     (Insuf)    .00000     1.0000     .00000    
+Station G.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station F.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station E.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station D.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station C.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station M.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station T.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Finishing Process Accum VA Time             9.0000    
+Cutting off Process Number In               4.0000    
+Drilling Process Number In                  3.0000    
+Drilling Process Number Out                 3.0000    
+Milling Process Accum VA Time               20.000    
+Cutting off Process Number Out              4.0000    
+Threading Process Accum Wait Time           4.0000    
+Cutting off Process Accum VA Time           8.0000    
+Threading Process Number In                 3.0000    
+Threading Process Number Out                3.0000    
+Turning Process Number Out                  4.0000    
+Milling Process Number Out                  1.0000    
+Milling Process Accum Wait Time             .00000    
+Grinding Process Number Out                 4.0000    
+Finishing Process Number Out                4.0000    
+Finishing Process Number In                 4.0000    
+Grinding Process Number In                  4.0000    
+Finishing Process Accum Wait Time           3.0000    
+Turning Process Accum VA Time               18.000    
+Grinding Process Accum VA Time              20.000    
+Drilling Process Accum VA Time              6.0000    
+Threading Process Accum VA Time             27.000    
+Drilling Process Accum Wait Time            .00000    
+Milling Process Number In                   1.0000    
+Grinding Process Accum Wait Time            .00000    
+Turning Process Accum Wait Time             23.000    
+Turning Process Number In                   4.0000    
+Cutting off Process Accum Wait Time         2.0000    
+Part 4.NumberIn                             1.0000    
+Part 4.NumberOut                            1.0000    
+Part 2.NumberIn                             1.0000    
+Part 2.NumberOut                            1.0000    
+Part 3.NumberIn                             1.0000    
+Part 3.NumberOut                            1.0000    
+Part 1.NumberIn                             1.0000    
+Part 1.NumberOut                            1.0000    
+Threading Machine.NumberSeized              3.0000    
+Threading Machine.ScheduledUtilization      .58696    
+Grinding Machine.NumberSeized               4.0000    
+Grinding Machine.ScheduledUtilization       .43478    
+Finishing Machine.NumberSeized              4.0000    
+Finishing Machine.ScheduledUtilization      .19565    
+Drilling Machine.NumberSeized               3.0000    
+Drilling Machine.ScheduledUtilization       .13043    
+Turning Machine.NumberSeized                4.0000    
+Turning Machine.ScheduledUtilization        .39130    
+Milling Machine.NumberSeized                1.0000    
+Milling Machine.ScheduledUtilization        .43478    
+Cutiing Machine.NumberSeized                4.0000    
+Cutiing Machine.ScheduledUtilization        .17391    
+System.NumberOut                            4.0000    
+
+Beginning replication 7 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 7 of 10
+
+Project: Job Shop Scheduling                                         Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 46.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Turning Process.WaitTimePerEntity           5.7500     (Insuf)    .00000     15.000          4    
+Cutting off Process.VATimePerEntity         2.0000     (Insuf)    2.0000     2.0000          4    
+Finishing Process.WaitTimePerEntity         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000          1    
+Threading Process.TotalTimePerEntity        10.333     (Insuf)    7.0000     14.000          3    
+Threading Process.WaitTimePerEntity         1.3333     (Insuf)    .00000     4.0000          3    
+Cutting off Process.TotalTimePerEntity      2.5000     (Insuf)    2.0000     4.0000          4    
+Milling Process.VATimePerEntity             20.000     (Insuf)    20.000     20.000          1    
+Grinding Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          4    
+Turning Process.VATimePerEntity             4.5000     (Insuf)    2.0000     10.000          4    
+Grinding Process.VATimePerEntity            5.0000     (Insuf)    2.0000     6.0000          4    
+Finishing Process.VATimePerEntity           2.2500     (Insuf)    2.0000     3.0000          4    
+Threading Process.VATimePerEntity           9.0000     (Insuf)    7.0000     10.000          3    
+Finishing Process.TotalTimePerEntity        3.0000     (Insuf)    2.0000     4.0000          4    
+Drilling Process.VATimePerEntity            2.0000     (Insuf)    2.0000     2.0000          3    
+Cutting off Process.WaitTimePerEntity       .50000     (Insuf)    .00000     2.0000          4    
+Grinding Process.TotalTimePerEntity         5.0000     (Insuf)    2.0000     6.0000          4    
+Drilling Process.TotalTimePerEntity         2.0000     (Insuf)    2.0000     2.0000          3    
+Milling Process.TotalTimePerEntity          20.000     (Insuf)    20.000     20.000          1    
+Turning Process.TotalTimePerEntity          10.250     (Insuf)    3.0000     18.000          4    
+Drilling Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          3    
+Part 4.VATime                               25.000     (Insuf)    25.000     25.000          1    
+Part 4.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 4.WaitTime                             21.000     (Insuf)    21.000     21.000          1    
+Part 4.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 4.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 4.TotalTime                            46.000     (Insuf)    46.000     46.000          1    
+Part 2.VATime                               21.000     (Insuf)    21.000     21.000          1    
+Part 2.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 2.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 2.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 2.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 2.TotalTime                            24.000     (Insuf)    24.000     24.000          1    
+Part 3.VATime                               39.000     (Insuf)    39.000     39.000          1    
+Part 3.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 3.WaitTime                             5.0000     (Insuf)    5.0000     5.0000          1    
+Part 3.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 3.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 3.TotalTime                            44.000     (Insuf)    44.000     44.000          1    
+Part 1.VATime                               23.000     (Insuf)    23.000     23.000          1    
+Part 1.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 1.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 1.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 1.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 1.TotalTime                            26.000     (Insuf)    26.000     26.000          1    
+Turning Process.Queue.WaitingTime           5.7500     (Insuf)    .00000     15.000          4    
+Threading Process.Queue.WaitingTime         1.3333     (Insuf)    .00000     4.0000          3    
+Grinding Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          4    
+Cutting off Process.Queue.WaitingTime       .50000     (Insuf)    .00000     2.0000          4    
+Finishing Process.Queue.WaitingTime         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Drilling Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part 4.WIP                                  1.0000     (Insuf)    .00000     1.0000     .00000    
+Part 2.WIP                                  .52174     (Insuf)    .00000     1.0000     .00000    
+Part 3.WIP                                  .95652     (Insuf)    .00000     1.0000     .00000    
+Part 1.WIP                                  .56522     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberBusy                .58696     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Threading Machine.Utilization               .58696     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberBusy                 .43478     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Grinding Machine.Utilization                .43478     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberBusy                .19565     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Finishing Machine.Utilization               .19565     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberBusy                 .13043     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling Machine.Utilization                .13043     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberBusy                  .39130     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Turning Machine.Utilization                 .39130     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberBusy                  .43478     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Milling Machine.Utilization                 .43478     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberBusy                  .17391     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cutiing Machine.Utilization                 .17391     (Insuf)    .00000     1.0000     .00000    
+Turning Process.Queue.NumberInQueue         .50000     (Insuf)    .00000     3.0000     .00000    
+Threading Process.Queue.NumberInQueue       .08696     (Insuf)    .00000     1.0000     .00000    
+Grinding Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     1.0000     .00000    
+Cutting off Process.Queue.NumberInQueue     .04348     (Insuf)    .00000     1.0000     .00000    
+Finishing Process.Queue.NumberInQueue       .06522     (Insuf)    .00000     1.0000     .00000    
+Milling Process.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Drilling Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Station Th.NumEntTrans                      .00000     (Insuf)    .00000     1.0000     .00000    
+Station G.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station F.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station E.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station D.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station C.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station M.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station T.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Finishing Process Accum VA Time             9.0000    
+Cutting off Process Number In               4.0000    
+Drilling Process Number In                  3.0000    
+Drilling Process Number Out                 3.0000    
+Milling Process Accum VA Time               20.000    
+Cutting off Process Number Out              4.0000    
+Threading Process Accum Wait Time           4.0000    
+Cutting off Process Accum VA Time           8.0000    
+Threading Process Number In                 3.0000    
+Threading Process Number Out                3.0000    
+Turning Process Number Out                  4.0000    
+Milling Process Number Out                  1.0000    
+Milling Process Accum Wait Time             .00000    
+Grinding Process Number Out                 4.0000    
+Finishing Process Number Out                4.0000    
+Finishing Process Number In                 4.0000    
+Grinding Process Number In                  4.0000    
+Finishing Process Accum Wait Time           3.0000    
+Turning Process Accum VA Time               18.000    
+Grinding Process Accum VA Time              20.000    
+Drilling Process Accum VA Time              6.0000    
+Threading Process Accum VA Time             27.000    
+Drilling Process Accum Wait Time            .00000    
+Milling Process Number In                   1.0000    
+Grinding Process Accum Wait Time            .00000    
+Turning Process Accum Wait Time             23.000    
+Turning Process Number In                   4.0000    
+Cutting off Process Accum Wait Time         2.0000    
+Part 4.NumberIn                             1.0000    
+Part 4.NumberOut                            1.0000    
+Part 2.NumberIn                             1.0000    
+Part 2.NumberOut                            1.0000    
+Part 3.NumberIn                             1.0000    
+Part 3.NumberOut                            1.0000    
+Part 1.NumberIn                             1.0000    
+Part 1.NumberOut                            1.0000    
+Threading Machine.NumberSeized              3.0000    
+Threading Machine.ScheduledUtilization      .58696    
+Grinding Machine.NumberSeized               4.0000    
+Grinding Machine.ScheduledUtilization       .43478    
+Finishing Machine.NumberSeized              4.0000    
+Finishing Machine.ScheduledUtilization      .19565    
+Drilling Machine.NumberSeized               3.0000    
+Drilling Machine.ScheduledUtilization       .13043    
+Turning Machine.NumberSeized                4.0000    
+Turning Machine.ScheduledUtilization        .39130    
+Milling Machine.NumberSeized                1.0000    
+Milling Machine.ScheduledUtilization        .43478    
+Cutiing Machine.NumberSeized                4.0000    
+Cutiing Machine.ScheduledUtilization        .17391    
+System.NumberOut                            4.0000    
+
+Beginning replication 8 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 8 of 10
+
+Project: Job Shop Scheduling                                         Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 46.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Turning Process.WaitTimePerEntity           5.7500     (Insuf)    .00000     15.000          4    
+Cutting off Process.VATimePerEntity         2.0000     (Insuf)    2.0000     2.0000          4    
+Finishing Process.WaitTimePerEntity         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000          1    
+Threading Process.TotalTimePerEntity        10.333     (Insuf)    7.0000     14.000          3    
+Threading Process.WaitTimePerEntity         1.3333     (Insuf)    .00000     4.0000          3    
+Cutting off Process.TotalTimePerEntity      2.5000     (Insuf)    2.0000     4.0000          4    
+Milling Process.VATimePerEntity             20.000     (Insuf)    20.000     20.000          1    
+Grinding Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          4    
+Turning Process.VATimePerEntity             4.5000     (Insuf)    2.0000     10.000          4    
+Grinding Process.VATimePerEntity            5.0000     (Insuf)    2.0000     6.0000          4    
+Finishing Process.VATimePerEntity           2.2500     (Insuf)    2.0000     3.0000          4    
+Threading Process.VATimePerEntity           9.0000     (Insuf)    7.0000     10.000          3    
+Finishing Process.TotalTimePerEntity        3.0000     (Insuf)    2.0000     4.0000          4    
+Drilling Process.VATimePerEntity            2.0000     (Insuf)    2.0000     2.0000          3    
+Cutting off Process.WaitTimePerEntity       .50000     (Insuf)    .00000     2.0000          4    
+Grinding Process.TotalTimePerEntity         5.0000     (Insuf)    2.0000     6.0000          4    
+Drilling Process.TotalTimePerEntity         2.0000     (Insuf)    2.0000     2.0000          3    
+Milling Process.TotalTimePerEntity          20.000     (Insuf)    20.000     20.000          1    
+Turning Process.TotalTimePerEntity          10.250     (Insuf)    3.0000     18.000          4    
+Drilling Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          3    
+Part 4.VATime                               25.000     (Insuf)    25.000     25.000          1    
+Part 4.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 4.WaitTime                             21.000     (Insuf)    21.000     21.000          1    
+Part 4.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 4.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 4.TotalTime                            46.000     (Insuf)    46.000     46.000          1    
+Part 2.VATime                               21.000     (Insuf)    21.000     21.000          1    
+Part 2.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 2.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 2.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 2.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 2.TotalTime                            24.000     (Insuf)    24.000     24.000          1    
+Part 3.VATime                               39.000     (Insuf)    39.000     39.000          1    
+Part 3.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 3.WaitTime                             5.0000     (Insuf)    5.0000     5.0000          1    
+Part 3.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 3.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 3.TotalTime                            44.000     (Insuf)    44.000     44.000          1    
+Part 1.VATime                               23.000     (Insuf)    23.000     23.000          1    
+Part 1.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 1.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 1.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 1.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 1.TotalTime                            26.000     (Insuf)    26.000     26.000          1    
+Turning Process.Queue.WaitingTime           5.7500     (Insuf)    .00000     15.000          4    
+Threading Process.Queue.WaitingTime         1.3333     (Insuf)    .00000     4.0000          3    
+Grinding Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          4    
+Cutting off Process.Queue.WaitingTime       .50000     (Insuf)    .00000     2.0000          4    
+Finishing Process.Queue.WaitingTime         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Drilling Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part 4.WIP                                  1.0000     (Insuf)    .00000     1.0000     .00000    
+Part 2.WIP                                  .52174     (Insuf)    .00000     1.0000     .00000    
+Part 3.WIP                                  .95652     (Insuf)    .00000     1.0000     .00000    
+Part 1.WIP                                  .56522     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberBusy                .58696     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Threading Machine.Utilization               .58696     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberBusy                 .43478     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Grinding Machine.Utilization                .43478     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberBusy                .19565     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Finishing Machine.Utilization               .19565     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberBusy                 .13043     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling Machine.Utilization                .13043     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberBusy                  .39130     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Turning Machine.Utilization                 .39130     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberBusy                  .43478     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Milling Machine.Utilization                 .43478     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberBusy                  .17391     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cutiing Machine.Utilization                 .17391     (Insuf)    .00000     1.0000     .00000    
+Turning Process.Queue.NumberInQueue         .50000     (Insuf)    .00000     3.0000     .00000    
+Threading Process.Queue.NumberInQueue       .08696     (Insuf)    .00000     1.0000     .00000    
+Grinding Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     1.0000     .00000    
+Cutting off Process.Queue.NumberInQueue     .04348     (Insuf)    .00000     1.0000     .00000    
+Finishing Process.Queue.NumberInQueue       .06522     (Insuf)    .00000     1.0000     .00000    
+Milling Process.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Drilling Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Station Th.NumEntTrans                      .00000     (Insuf)    .00000     1.0000     .00000    
+Station G.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station F.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station E.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station D.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station C.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station M.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station T.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Finishing Process Accum VA Time             9.0000    
+Cutting off Process Number In               4.0000    
+Drilling Process Number In                  3.0000    
+Drilling Process Number Out                 3.0000    
+Milling Process Accum VA Time               20.000    
+Cutting off Process Number Out              4.0000    
+Threading Process Accum Wait Time           4.0000    
+Cutting off Process Accum VA Time           8.0000    
+Threading Process Number In                 3.0000    
+Threading Process Number Out                3.0000    
+Turning Process Number Out                  4.0000    
+Milling Process Number Out                  1.0000    
+Milling Process Accum Wait Time             .00000    
+Grinding Process Number Out                 4.0000    
+Finishing Process Number Out                4.0000    
+Finishing Process Number In                 4.0000    
+Grinding Process Number In                  4.0000    
+Finishing Process Accum Wait Time           3.0000    
+Turning Process Accum VA Time               18.000    
+Grinding Process Accum VA Time              20.000    
+Drilling Process Accum VA Time              6.0000    
+Threading Process Accum VA Time             27.000    
+Drilling Process Accum Wait Time            .00000    
+Milling Process Number In                   1.0000    
+Grinding Process Accum Wait Time            .00000    
+Turning Process Accum Wait Time             23.000    
+Turning Process Number In                   4.0000    
+Cutting off Process Accum Wait Time         2.0000    
+Part 4.NumberIn                             1.0000    
+Part 4.NumberOut                            1.0000    
+Part 2.NumberIn                             1.0000    
+Part 2.NumberOut                            1.0000    
+Part 3.NumberIn                             1.0000    
+Part 3.NumberOut                            1.0000    
+Part 1.NumberIn                             1.0000    
+Part 1.NumberOut                            1.0000    
+Threading Machine.NumberSeized              3.0000    
+Threading Machine.ScheduledUtilization      .58696    
+Grinding Machine.NumberSeized               4.0000    
+Grinding Machine.ScheduledUtilization       .43478    
+Finishing Machine.NumberSeized              4.0000    
+Finishing Machine.ScheduledUtilization      .19565    
+Drilling Machine.NumberSeized               3.0000    
+Drilling Machine.ScheduledUtilization       .13043    
+Turning Machine.NumberSeized                4.0000    
+Turning Machine.ScheduledUtilization        .39130    
+Milling Machine.NumberSeized                1.0000    
+Milling Machine.ScheduledUtilization        .43478    
+Cutiing Machine.NumberSeized                4.0000    
+Cutiing Machine.ScheduledUtilization        .17391    
+System.NumberOut                            4.0000    
+
+Beginning replication 9 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 9 of 10
+
+Project: Job Shop Scheduling                                         Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 46.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Turning Process.WaitTimePerEntity           5.7500     (Insuf)    .00000     15.000          4    
+Cutting off Process.VATimePerEntity         2.0000     (Insuf)    2.0000     2.0000          4    
+Finishing Process.WaitTimePerEntity         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000          1    
+Threading Process.TotalTimePerEntity        10.333     (Insuf)    7.0000     14.000          3    
+Threading Process.WaitTimePerEntity         1.3333     (Insuf)    .00000     4.0000          3    
+Cutting off Process.TotalTimePerEntity      2.5000     (Insuf)    2.0000     4.0000          4    
+Milling Process.VATimePerEntity             20.000     (Insuf)    20.000     20.000          1    
+Grinding Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          4    
+Turning Process.VATimePerEntity             4.5000     (Insuf)    2.0000     10.000          4    
+Grinding Process.VATimePerEntity            5.0000     (Insuf)    2.0000     6.0000          4    
+Finishing Process.VATimePerEntity           2.2500     (Insuf)    2.0000     3.0000          4    
+Threading Process.VATimePerEntity           9.0000     (Insuf)    7.0000     10.000          3    
+Finishing Process.TotalTimePerEntity        3.0000     (Insuf)    2.0000     4.0000          4    
+Drilling Process.VATimePerEntity            2.0000     (Insuf)    2.0000     2.0000          3    
+Cutting off Process.WaitTimePerEntity       .50000     (Insuf)    .00000     2.0000          4    
+Grinding Process.TotalTimePerEntity         5.0000     (Insuf)    2.0000     6.0000          4    
+Drilling Process.TotalTimePerEntity         2.0000     (Insuf)    2.0000     2.0000          3    
+Milling Process.TotalTimePerEntity          20.000     (Insuf)    20.000     20.000          1    
+Turning Process.TotalTimePerEntity          10.250     (Insuf)    3.0000     18.000          4    
+Drilling Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          3    
+Part 4.VATime                               25.000     (Insuf)    25.000     25.000          1    
+Part 4.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 4.WaitTime                             21.000     (Insuf)    21.000     21.000          1    
+Part 4.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 4.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 4.TotalTime                            46.000     (Insuf)    46.000     46.000          1    
+Part 2.VATime                               21.000     (Insuf)    21.000     21.000          1    
+Part 2.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 2.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 2.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 2.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 2.TotalTime                            24.000     (Insuf)    24.000     24.000          1    
+Part 3.VATime                               39.000     (Insuf)    39.000     39.000          1    
+Part 3.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 3.WaitTime                             5.0000     (Insuf)    5.0000     5.0000          1    
+Part 3.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 3.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 3.TotalTime                            44.000     (Insuf)    44.000     44.000          1    
+Part 1.VATime                               23.000     (Insuf)    23.000     23.000          1    
+Part 1.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 1.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 1.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 1.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 1.TotalTime                            26.000     (Insuf)    26.000     26.000          1    
+Turning Process.Queue.WaitingTime           5.7500     (Insuf)    .00000     15.000          4    
+Threading Process.Queue.WaitingTime         1.3333     (Insuf)    .00000     4.0000          3    
+Grinding Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          4    
+Cutting off Process.Queue.WaitingTime       .50000     (Insuf)    .00000     2.0000          4    
+Finishing Process.Queue.WaitingTime         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Drilling Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part 4.WIP                                  1.0000     (Insuf)    .00000     1.0000     .00000    
+Part 2.WIP                                  .52174     (Insuf)    .00000     1.0000     .00000    
+Part 3.WIP                                  .95652     (Insuf)    .00000     1.0000     .00000    
+Part 1.WIP                                  .56522     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberBusy                .58696     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Threading Machine.Utilization               .58696     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberBusy                 .43478     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Grinding Machine.Utilization                .43478     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberBusy                .19565     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Finishing Machine.Utilization               .19565     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberBusy                 .13043     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling Machine.Utilization                .13043     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberBusy                  .39130     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Turning Machine.Utilization                 .39130     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberBusy                  .43478     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Milling Machine.Utilization                 .43478     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberBusy                  .17391     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cutiing Machine.Utilization                 .17391     (Insuf)    .00000     1.0000     .00000    
+Turning Process.Queue.NumberInQueue         .50000     (Insuf)    .00000     3.0000     .00000    
+Threading Process.Queue.NumberInQueue       .08696     (Insuf)    .00000     1.0000     .00000    
+Grinding Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     1.0000     .00000    
+Cutting off Process.Queue.NumberInQueue     .04348     (Insuf)    .00000     1.0000     .00000    
+Finishing Process.Queue.NumberInQueue       .06522     (Insuf)    .00000     1.0000     .00000    
+Milling Process.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Drilling Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Station Th.NumEntTrans                      .00000     (Insuf)    .00000     1.0000     .00000    
+Station G.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station F.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station E.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station D.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station C.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station M.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station T.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Finishing Process Accum VA Time             9.0000    
+Cutting off Process Number In               4.0000    
+Drilling Process Number In                  3.0000    
+Drilling Process Number Out                 3.0000    
+Milling Process Accum VA Time               20.000    
+Cutting off Process Number Out              4.0000    
+Threading Process Accum Wait Time           4.0000    
+Cutting off Process Accum VA Time           8.0000    
+Threading Process Number In                 3.0000    
+Threading Process Number Out                3.0000    
+Turning Process Number Out                  4.0000    
+Milling Process Number Out                  1.0000    
+Milling Process Accum Wait Time             .00000    
+Grinding Process Number Out                 4.0000    
+Finishing Process Number Out                4.0000    
+Finishing Process Number In                 4.0000    
+Grinding Process Number In                  4.0000    
+Finishing Process Accum Wait Time           3.0000    
+Turning Process Accum VA Time               18.000    
+Grinding Process Accum VA Time              20.000    
+Drilling Process Accum VA Time              6.0000    
+Threading Process Accum VA Time             27.000    
+Drilling Process Accum Wait Time            .00000    
+Milling Process Number In                   1.0000    
+Grinding Process Accum Wait Time            .00000    
+Turning Process Accum Wait Time             23.000    
+Turning Process Number In                   4.0000    
+Cutting off Process Accum Wait Time         2.0000    
+Part 4.NumberIn                             1.0000    
+Part 4.NumberOut                            1.0000    
+Part 2.NumberIn                             1.0000    
+Part 2.NumberOut                            1.0000    
+Part 3.NumberIn                             1.0000    
+Part 3.NumberOut                            1.0000    
+Part 1.NumberIn                             1.0000    
+Part 1.NumberOut                            1.0000    
+Threading Machine.NumberSeized              3.0000    
+Threading Machine.ScheduledUtilization      .58696    
+Grinding Machine.NumberSeized               4.0000    
+Grinding Machine.ScheduledUtilization       .43478    
+Finishing Machine.NumberSeized              4.0000    
+Finishing Machine.ScheduledUtilization      .19565    
+Drilling Machine.NumberSeized               3.0000    
+Drilling Machine.ScheduledUtilization       .13043    
+Turning Machine.NumberSeized                4.0000    
+Turning Machine.ScheduledUtilization        .39130    
+Milling Machine.NumberSeized                1.0000    
+Milling Machine.ScheduledUtilization        .43478    
+Cutiing Machine.NumberSeized                4.0000    
+Cutiing Machine.ScheduledUtilization        .17391    
+System.NumberOut                            4.0000    
+
+Beginning replication 10 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 10 of 10
+
+Project: Job Shop Scheduling                                         Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 46.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Turning Process.WaitTimePerEntity           5.7500     (Insuf)    .00000     15.000          4    
+Cutting off Process.VATimePerEntity         2.0000     (Insuf)    2.0000     2.0000          4    
+Finishing Process.WaitTimePerEntity         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000          1    
+Threading Process.TotalTimePerEntity        10.333     (Insuf)    7.0000     14.000          3    
+Threading Process.WaitTimePerEntity         1.3333     (Insuf)    .00000     4.0000          3    
+Cutting off Process.TotalTimePerEntity      2.5000     (Insuf)    2.0000     4.0000          4    
+Milling Process.VATimePerEntity             20.000     (Insuf)    20.000     20.000          1    
+Grinding Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          4    
+Turning Process.VATimePerEntity             4.5000     (Insuf)    2.0000     10.000          4    
+Grinding Process.VATimePerEntity            5.0000     (Insuf)    2.0000     6.0000          4    
+Finishing Process.VATimePerEntity           2.2500     (Insuf)    2.0000     3.0000          4    
+Threading Process.VATimePerEntity           9.0000     (Insuf)    7.0000     10.000          3    
+Finishing Process.TotalTimePerEntity        3.0000     (Insuf)    2.0000     4.0000          4    
+Drilling Process.VATimePerEntity            2.0000     (Insuf)    2.0000     2.0000          3    
+Cutting off Process.WaitTimePerEntity       .50000     (Insuf)    .00000     2.0000          4    
+Grinding Process.TotalTimePerEntity         5.0000     (Insuf)    2.0000     6.0000          4    
+Drilling Process.TotalTimePerEntity         2.0000     (Insuf)    2.0000     2.0000          3    
+Milling Process.TotalTimePerEntity          20.000     (Insuf)    20.000     20.000          1    
+Turning Process.TotalTimePerEntity          10.250     (Insuf)    3.0000     18.000          4    
+Drilling Process.WaitTimePerEntity          .00000     (Insuf)    .00000     .00000          3    
+Part 4.VATime                               25.000     (Insuf)    25.000     25.000          1    
+Part 4.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 4.WaitTime                             21.000     (Insuf)    21.000     21.000          1    
+Part 4.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 4.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 4.TotalTime                            46.000     (Insuf)    46.000     46.000          1    
+Part 2.VATime                               21.000     (Insuf)    21.000     21.000          1    
+Part 2.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 2.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 2.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 2.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 2.TotalTime                            24.000     (Insuf)    24.000     24.000          1    
+Part 3.VATime                               39.000     (Insuf)    39.000     39.000          1    
+Part 3.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 3.WaitTime                             5.0000     (Insuf)    5.0000     5.0000          1    
+Part 3.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 3.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 3.TotalTime                            44.000     (Insuf)    44.000     44.000          1    
+Part 1.VATime                               23.000     (Insuf)    23.000     23.000          1    
+Part 1.NVATime                              .00000     (Insuf)    .00000     .00000          1    
+Part 1.WaitTime                             3.0000     (Insuf)    3.0000     3.0000          1    
+Part 1.TranTime                             .00000     (Insuf)    .00000     .00000          1    
+Part 1.OtherTime                            .00000     (Insuf)    .00000     .00000          1    
+Part 1.TotalTime                            26.000     (Insuf)    26.000     26.000          1    
+Turning Process.Queue.WaitingTime           5.7500     (Insuf)    .00000     15.000          4    
+Threading Process.Queue.WaitingTime         1.3333     (Insuf)    .00000     4.0000          3    
+Grinding Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          4    
+Cutting off Process.Queue.WaitingTime       .50000     (Insuf)    .00000     2.0000          4    
+Finishing Process.Queue.WaitingTime         .75000     (Insuf)    .00000     2.0000          4    
+Milling Process.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Drilling Process.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part 4.WIP                                  1.0000     (Insuf)    .00000     1.0000     .00000    
+Part 2.WIP                                  .52174     (Insuf)    .00000     1.0000     .00000    
+Part 3.WIP                                  .95652     (Insuf)    .00000     1.0000     .00000    
+Part 1.WIP                                  .56522     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberBusy                .58696     (Insuf)    .00000     1.0000     .00000    
+Threading Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Threading Machine.Utilization               .58696     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberBusy                 .43478     (Insuf)    .00000     1.0000     .00000    
+Grinding Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Grinding Machine.Utilization                .43478     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberBusy                .19565     (Insuf)    .00000     1.0000     .00000    
+Finishing Machine.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Finishing Machine.Utilization               .19565     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberBusy                 .13043     (Insuf)    .00000     1.0000     .00000    
+Drilling Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drilling Machine.Utilization                .13043     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberBusy                  .39130     (Insuf)    .00000     1.0000     .00000    
+Turning Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Turning Machine.Utilization                 .39130     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberBusy                  .43478     (Insuf)    .00000     1.0000     .00000    
+Milling Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Milling Machine.Utilization                 .43478     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberBusy                  .17391     (Insuf)    .00000     1.0000     .00000    
+Cutiing Machine.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cutiing Machine.Utilization                 .17391     (Insuf)    .00000     1.0000     .00000    
+Turning Process.Queue.NumberInQueue         .50000     (Insuf)    .00000     3.0000     .00000    
+Threading Process.Queue.NumberInQueue       .08696     (Insuf)    .00000     1.0000     .00000    
+Grinding Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     1.0000     .00000    
+Cutting off Process.Queue.NumberInQueue     .04348     (Insuf)    .00000     1.0000     .00000    
+Finishing Process.Queue.NumberInQueue       .06522     (Insuf)    .00000     1.0000     .00000    
+Milling Process.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Drilling Process.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Station Th.NumEntTrans                      .00000     (Insuf)    .00000     1.0000     .00000    
+Station G.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station F.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station E.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station D.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station C.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station M.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+Station T.NumEntTrans                       .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Finishing Process Accum VA Time             9.0000    
+Cutting off Process Number In               4.0000    
+Drilling Process Number In                  3.0000    
+Drilling Process Number Out                 3.0000    
+Milling Process Accum VA Time               20.000    
+Cutting off Process Number Out              4.0000    
+Threading Process Accum Wait Time           4.0000    
+Cutting off Process Accum VA Time           8.0000    
+Threading Process Number In                 3.0000    
+Threading Process Number Out                3.0000    
+Turning Process Number Out                  4.0000    
+Milling Process Number Out                  1.0000    
+Milling Process Accum Wait Time             .00000    
+Grinding Process Number Out                 4.0000    
+Finishing Process Number Out                4.0000    
+Finishing Process Number In                 4.0000    
+Grinding Process Number In                  4.0000    
+Finishing Process Accum Wait Time           3.0000    
+Turning Process Accum VA Time               18.000    
+Grinding Process Accum VA Time              20.000    
+Drilling Process Accum VA Time              6.0000    
+Threading Process Accum VA Time             27.000    
+Drilling Process Accum Wait Time            .00000    
+Milling Process Number In                   1.0000    
+Grinding Process Accum Wait Time            .00000    
+Turning Process Accum Wait Time             23.000    
+Turning Process Number In                   4.0000    
+Cutting off Process Accum Wait Time         2.0000    
+Part 4.NumberIn                             1.0000    
+Part 4.NumberOut                            1.0000    
+Part 2.NumberIn                             1.0000    
+Part 2.NumberOut                            1.0000    
+Part 3.NumberIn                             1.0000    
+Part 3.NumberOut                            1.0000    
+Part 1.NumberIn                             1.0000    
+Part 1.NumberOut                            1.0000    
+Threading Machine.NumberSeized              3.0000    
+Threading Machine.ScheduledUtilization      .58696    
+Grinding Machine.NumberSeized               4.0000    
+Grinding Machine.ScheduledUtilization       .43478    
+Finishing Machine.NumberSeized              4.0000    
+Finishing Machine.ScheduledUtilization      .19565    
+Drilling Machine.NumberSeized               3.0000    
+Drilling Machine.ScheduledUtilization       .13043    
+Turning Machine.NumberSeized                4.0000    
+Turning Machine.ScheduledUtilization        .39130    
+Milling Machine.NumberSeized                1.0000    
+Milling Machine.ScheduledUtilization        .43478    
+Cutiing Machine.NumberSeized                4.0000    
+Cutiing Machine.ScheduledUtilization        .17391    
+System.NumberOut                            4.0000    
+
+
+                                      ARENA Simulation Results
+                                                user
+
+                                 Output Summary for 10 Replications
+
+Project: Job Shop Scheduling                                         Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Finishing Process Accum VA Time             9.0000     .00000     9.0000     9.0000     10
+Cutting off Process Number In               4.0000     .00000     4.0000     4.0000     10
+Drilling Process Number In                  3.0000     .00000     3.0000     3.0000     10
+Drilling Process Number Out                 3.0000     .00000     3.0000     3.0000     10
+Milling Process Accum VA Time               20.000     .00000     20.000     20.000     10
+Cutting off Process Number Out              4.0000     .00000     4.0000     4.0000     10
+Threading Process Accum Wait Time           4.0000     .00000     4.0000     4.0000     10
+Cutting off Process Accum VA Time           8.0000     .00000     8.0000     8.0000     10
+Threading Process Number In                 3.0000     .00000     3.0000     3.0000     10
+Threading Process Number Out                3.0000     .00000     3.0000     3.0000     10
+Turning Process Number Out                  4.0000     .00000     4.0000     4.0000     10
+Milling Process Number Out                  1.0000     .00000     1.0000     1.0000     10
+Milling Process Accum Wait Time             .00000     .00000     .00000     .00000     10
+Grinding Process Number Out                 4.0000     .00000     4.0000     4.0000     10
+Finishing Process Number Out                4.0000     .00000     4.0000     4.0000     10
+Finishing Process Number In                 4.0000     .00000     4.0000     4.0000     10
+Grinding Process Number In                  4.0000     .00000     4.0000     4.0000     10
+Finishing Process Accum Wait Time           3.0000     .00000     3.0000     3.0000     10
+Turning Process Accum VA Time               18.000     .00000     18.000     18.000     10
+Grinding Process Accum VA Time              20.000     .00000     20.000     20.000     10
+Drilling Process Accum VA Time              6.0000     .00000     6.0000     6.0000     10
+Threading Process Accum VA Time             27.000     .00000     27.000     27.000     10
+Drilling Process Accum Wait Time            .00000     .00000     .00000     .00000     10
+Milling Process Number In                   1.0000     .00000     1.0000     1.0000     10
+Grinding Process Accum Wait Time            .00000     .00000     .00000     .00000     10
+Turning Process Accum Wait Time             23.000     .00000     23.000     23.000     10
+Turning Process Number In                   4.0000     .00000     4.0000     4.0000     10
+Cutting off Process Accum Wait Time         2.0000     .00000     2.0000     2.0000     10
+Part 4.NumberIn                             1.0000     .00000     1.0000     1.0000     10
+Part 4.NumberOut                            1.0000     .00000     1.0000     1.0000     10
+Part 2.NumberIn                             1.0000     .00000     1.0000     1.0000     10
+Part 2.NumberOut                            1.0000     .00000     1.0000     1.0000     10
+Part 3.NumberIn                             1.0000     .00000     1.0000     1.0000     10
+Part 3.NumberOut                            1.0000     .00000     1.0000     1.0000     10
+Part 1.NumberIn                             1.0000     .00000     1.0000     1.0000     10
+Part 1.NumberOut                            1.0000     .00000     1.0000     1.0000     10
+Threading Machine.NumberSeized              3.0000     .00000     3.0000     3.0000     10
+Threading Machine.ScheduledUtilization      .58696     8.3711E-17 .58696     .58696     10
+Grinding Machine.NumberSeized               4.0000     .00000     4.0000     4.0000     10
+Grinding Machine.ScheduledUtilization       .43478     .00000     .43478     .43478     10
+Finishing Machine.NumberSeized              4.0000     .00000     4.0000     4.0000     10
+Finishing Machine.ScheduledUtilization      .19565     .00000     .19565     .19565     10
+Drilling Machine.NumberSeized               3.0000     .00000     3.0000     3.0000     10
+Drilling Machine.ScheduledUtilization       .13043     2.0928E-17 .13043     .13043     10
+Turning Machine.NumberSeized                4.0000     .00000     4.0000     4.0000     10
+Turning Machine.ScheduledUtilization        .39130     .00000     .39130     .39130     10
+Milling Machine.NumberSeized                1.0000     .00000     1.0000     1.0000     10
+Milling Machine.ScheduledUtilization        .43478     .00000     .43478     .43478     10
+Cutiing Machine.NumberSeized                4.0000     .00000     4.0000     4.0000     10
+Cutiing Machine.ScheduledUtilization        .17391     2.0928E-17 .17391     .17391     10
+System.NumberOut                            4.0000     .00000     4.0000     4.0000     10
+
+Simulation run time: 0.30 minutes.
+Simulation run complete.
