@@ -1,6 +1,6 @@
 ## Job-Shop Scheduling Problem Simulation using Arena
-##This project features a detailed simulation model of a job-shop manufacturing system built with Rockwell Arena. The simulation addresses a classic scheduling problem involving multiple job types, each with a unique processing sequence and machining time across a shared set of resources.
-###📝 Problem Statement
+## This project features a detailed simulation model of a job-shop manufacturing system built with Rockwell Arena. The simulation addresses a classic scheduling problem involving multiple job types, each with a unique processing sequence and machining time across a shared set of resources.
+### 📝 Problem Statement
 The system models a production unit where four distinct types of jobs arrive for processing. The jobs are: Bolt, Nut, Gear, and Plug. These jobs arrive with inter-arrival times of 1, 2, 2.5, and 1.5 minutes, respectively. Each job type follows a specific routing sequence through seven different processing stations.
 
 Job Sequences & Machining Times
@@ -17,13 +17,13 @@ Plug
 Turning (3) → Threading (10) → Drilling (2) → Cutting off (2) → Grinding (6) → Finishing (2)
 
 
-##🎯 Project Objectives
+## 🎯 Project Objectives
 The primary goals of this simulation study are:
 Develop a Model: To accurately construct a simulation model of the described job-shop manufacturing system using Arena.
 Simulate & Visualize: To run the simulation to observe the system's behavior, identify potential bottlenecks, and visualize the flow of jobs.
 Measure Performance: To calculate and analyze key performance indicators (KPIs) such as makespan and cycle time to evaluate system efficiency.
 
-##🛠️ Model Details & System Logic
+## 🛠️ Model Details & System Logic
 Here is a breakdown of the components and logic used to build the Arena model:
 System Requirements: Windows OS and Rockwell Arena simulation software.
 Entities: Four distinct entities representing each job type (Part 1, Part 2, Part 3, and Part 4).
